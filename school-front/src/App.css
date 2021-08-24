@@ -1,0 +1,30 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+  
+.navbar-nav {
+    padding: 0.5%;
+  }
+  
+.navbar-light .navbar-nav .nav-link{
+    transition: background-color 1.5s, color 1s;
+    padding: 10px;
+  }
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #3498db;
+    color: white;
+  }
+
+.card {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+
+.schoolList {
+    overflow-y: scroll;
+    height: 500px;
+  }
